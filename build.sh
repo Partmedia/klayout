@@ -591,8 +591,7 @@ echo "      RPATH=$RPATH"
 
 mkdir -p $BUILD
 
-# source the version script
-. $(dirname $(which $0))/version.sh
+mkdir -p $BIN
 
 # qmake needs absolute paths, so we get them now:
 #   OSX does not have `readlink -f` command. Use equivalent Perl script.
