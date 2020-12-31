@@ -1,0 +1,2 @@
+#!/bin/sh
+exec bash build.sh -rpath /usr/local/lib -prefix /opt/klayout -debug -qt5 -option '-j6' -python python3
